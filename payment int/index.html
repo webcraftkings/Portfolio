@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="./Image/Man_Shadow 1.png" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kingsley | Web Developer Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <style>
+        body {
+            background: linear-gradient(to right, #0f0f0f 60%, #8B0000 40%);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body class="text-white font-sans">
+
+    <!-- HERO SECTION -->
+    <section class="relative min-h-screen flex flex-col justify-center items-center px-6 text-center overflow-hidden">
+        <!-- Background Gradient -->
+        <div class="absolute inset-0 bg-gradient-to-br from-[#0f0f0f] via-[#8B0000] to-black opacity-90 z-0"></div>
+
+        <!-- Optional Image Texture -->
+        <!-- <img src="hero-pattern.jpg" alt="Background" class="absolute inset-0 w-full h-full object-cover opacity-10 z-0" /> -->
+
+        <!-- Shadow Image -->
+        <img src="./Image/Man_Shadow 1.png" alt="Man Shadow"
+            class="absolute bottom-0 right-0 w-[400px] opacity-30 hidden md:block z-0">
+
+        <!-- Hero Content -->
+        <div class="relative z-10 max-w-2xl mx-auto backdrop-blur-sm bg-white/5 border border-white/10 p-8 rounded-xl shadow-xl"
+            data-aos="zoom-in">
+            <h1 class="text-5xl font-extrabold mb-4 tracking-tight text-white drop-shadow-lg">Hi, I'm Kingsley</h1>
+            <p class="text-xl text-gray-200 mb-6 leading-relaxed">I design, code & optimize powerful web experiences for
+                businesses and creatives worldwide.</p>
+            <a href="#contact"
+                class="bg-red-600 hover:bg-red-700 px-6 py-3 text-white font-medium rounded-full shadow-md transition duration-300">Let’s
+                Talk</a>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="py-20 px-6 max-w-4xl mx-auto text-center" data-aos="fade-right">
+        <h2 class="text-4xl font-bold mb-6">About Me</h2>
+        <p class="text-lg text-gray-300">I'm a full-stack developer with a passion for solving real-world problems
+            through smart, scalable code. From frontend design to backend logic, I deliver sleek and secure web
+            solutions that convert.</p>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="bg-gray-900 py-20 px-6" data-aos="fade-up">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-12">Tech Stack</h2>
+            <div class="grid md:grid-cols-3 gap-8 text-center">
+                <div class="p-6 bg-gray-800 rounded-lg shadow">
+                    <h3 class="text-2xl font-semibold mb-2">Frontend</h3>
+                    <p class="text-gray-400">HTML, CSS, JavaScript, React, Tailwind CSS</p>
+                </div>
+                <div class="p-6 bg-gray-800 rounded-lg shadow">
+                    <h3 class="text-2xl font-semibold mb-2">Backend</h3>
+                    <p class="text-gray-400">Node.js, Express.js, MongoDB, Firebase</p>
+                </div>
+                <div class="p-6 bg-gray-800 rounded-lg shadow">
+                    <h3 class="text-2xl font-semibold mb-2">Tools</h3>
+                    <p class="text-gray-400">Git, GitHub, & VS Code</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="py-20 bg-black text-center" data-aos="zoom-in-up">
+        <h2 class="text-4xl font-bold mb-10">Stats & Achievements</h2>
+        <div class="flex flex-wrap justify-center gap-10">
+            <div>
+                <p class="text-5xl font-bold text-red-600">15+</p>
+                <p class="text-gray-400">Projects Delivered</p>
+            </div>
+            <div>
+                <p class="text-5xl font-bold text-red-600">13+</p>
+                <p class="text-gray-400">Happy Clients</p>
+            </div>
+            <div>
+                <p class="text-5xl font-bold text-red-600">3+</p>
+                <p class="text-gray-400">Years of Experience</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="py-20 px-6 max-w-6xl mx-auto" data-aos="fade-up">
+        <h2 class="text-4xl font-bold text-center mb-12">Projects Built</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg">
+                <img src="./Image/E_commerce.png" alt="Project 1" class="w-full h-48 object-cover" />
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold mb-1">E-commerce App</h3>
+                    <p class="text-gray-400">A complete online store with checkout & admin panel.</p>
+                </div>
+            </div>
+            <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg">
+                <img src="./Image/Business.png" alt="Project 2" class="w-full h-48 object-cover" />
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold mb-1">Business Website</h3>
+                    <p class="text-gray-400">Responsive site for a logistics firm with booking system.</p>
+                </div>
+            </div>
+            <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg">
+                <img src="./Image/portfolio.png" alt="Project 3" class="w-full h-48 object-cover" />
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold mb-1">Portfolio</h3>
+                    <p class="text-gray-400">Showcase site for a visual artist with contact form.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="py-20 px-6 bg-gray-950" data-aos="fade-up">
+        <h2 class="text-4xl font-bold text-center mb-12">What Clients Say</h2>
+        <div class="max-w-5xl mx-auto grid md:grid-cols-3 gap-8">
+            <div class="bg-gray-800 p-6 rounded-lg shadow-md">
+                <p class="text-gray-300 italic">“Kingsley brought our vision to life with creativity and speed. Highly
+                    recommend!”</p>
+                <p class="mt-4 font-semibold text-red-500">— Sarah J.</p>
+                <p class="text-yellow-400">★★★★★</p>
+            </div>
+            <div class="bg-gray-800 p-6 rounded-lg shadow-md">
+                <p class="text-gray-300 italic">“Excellent communication and professional work. Our go-to developer
+                    now.”</p>
+                <p class="mt-4 font-semibold text-red-500">— Daniel M.</p>
+                <p class="text-yellow-400">★★★★★</p>
+            </div>
+            <div class="bg-gray-800 p-6 rounded-lg shadow-md">
+                <p class="text-gray-300 italic">“He fixed things other developers couldn’t. The site works perfectly!”
+                </p>
+                <p class="mt-4 font-semibold text-red-500">— Linda O.</p>
+                <p class="text-yellow-400">★★★★★</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="py-20 px-6 max-w-4xl mx-auto" data-aos="fade-right">
+        <h2 class="text-4xl font-bold mb-10 text-center">FAQs</h2>
+        <div class="space-y-6 text-gray-300">
+            <div>
+                <h3 class="font-bold text-xl">How long does a project take?</h3>
+                <p>Depending on the scope, most sites take 1–3 weeks from start to launch.</p>
+            </div>
+            <div>
+                <h3 class="font-bold text-xl">What do I need to get started?</h3>
+                <p>I’ll guide you through it — just have an idea, content, and your brand colors ready.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="py-20 px-6 bg-gray-900" data-aos="fade-up">
+        <h2 class="text-4xl font-bold text-center mb-12">Services Offered</h2>
+        <div class="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto text-center">
+            <div class="p-6 bg-gray-800 rounded-lg shadow">
+                <h3 class="text-2xl font-semibold text-red-500 mb-2">Custom Website Design</h3>
+                <p class="text-gray-400">Modern, responsive, and fast websites tailored to your brand.</p>
+            </div>
+            <div class="p-6 bg-gray-800 rounded-lg shadow">
+                <h3 class="text-2xl font-semibold text-red-500 mb-2">E-commerce Integration</h3>
+                <p class="text-gray-400">Secure online stores with checkout, cart, and admin dashboards.</p>
+            </div>
+            <div class="p-6 bg-gray-800 rounded-lg shadow">
+                <h3 class="text-2xl font-semibold text-red-500 mb-2">Website Maintenance</h3>
+                <p class="text-gray-400">Keep your site secure, updated, and running 24/7 with my monthly support.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- CURRENCY SWITCHER -->
+    <div class="text-center mb-10">
+        <label class="text-lg mr-2 font-medium text-white">Choose Currency:</label>
+        <select id="currencySelect" onchange="updatePrices()" class="bg-gray-800 text-white px-4 py-2 rounded">
+            <option value="usd" selected>USD ($)</option>
+            <option value="ngn">NGN (₦)</option>
+        </select>
+    </div>
+
+    <!-- PRICING PLANS -->
+    <section class="py-10 px-6 bg-black text-white" data-aos="zoom-in-up">
+        <div class="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto text-center">
+            <!-- BASIC -->
+            <div class="bg-gray-800 p-8 rounded-lg shadow-lg border border-gray-700">
+                <h3 class="text-2xl font-bold mb-2">Basic</h3>
+                <p id="basicPrice" class="text-3xl font-extrabold text-red-500 mb-4">$100</p>
+                <ul class="text-gray-300 mb-6 space-y-2">
+                    <li>1-3 Pages</li>
+                    <li>Mobile Responsive</li>
+                    <li>Contact Form</li>
+                    <li>Delivery: 5 Days</li>
+                </ul>
+                <a href="https://wa.link/nlndc7" target="_blank"
+                    class="bg-red-600 hover:bg-red-700 px-6 py-2 rounded-full inline-block">Pay Now</a>
+            </div>
+
+            <!-- STANDARD -->
+            <div class="bg-gray-800 p-8 rounded-lg shadow-lg border-2 border-red-600 scale-105">
+                <h3 class="text-2xl font-bold mb-2">Standard</h3>
+                <p id="standardPrice" class="text-3xl font-extrabold text-red-500 mb-4">$250</p>
+                <ul class="text-gray-300 mb-6 space-y-2">
+                    <li>Up to 6 Pages</li>
+                    <li>Animations & SEO</li>
+                    <li>Live Chat & Forms</li>
+                    <li>Delivery: 10 Days</li>
+                </ul>
+                <a href="https://wa.link/nlndc7" target="_blank"
+                    class="bg-red-600 hover:bg-red-700 px-6 py-2 rounded-full inline-block">Pay Now</a>
+            </div>
+
+            <!-- PREMIUM -->
+            <div class="bg-gray-800 p-8 rounded-lg shadow-lg border border-gray-700">
+                <h3 class="text-2xl font-bold mb-2">Premium</h3>
+                <p id="premiumPrice" class="text-3xl font-extrabold text-red-500 mb-4">$500</p>
+                <ul class="text-gray-300 mb-6 space-y-2">
+                    <li>Unlimited Pages</li>
+                    <li>Full Custom Features</li>
+                    <li>Admin Panel + Hosting</li>
+                    <li>Delivery: 10–15 Days</li>
+                </ul>
+                <a href="https://wa.link/nlndc7" target="_blank"
+                    class="bg-red-600 hover:bg-red-700 px-6 py-2 rounded-full inline-block">Pay Now</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- BLOG TEASER -->
+    <section class="bg-black py-20 px-6" data-aos="fade-up">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-6">Latest From My Blog</h2>
+            <p class="text-gray-400 mb-4">Tips, tricks, and stories from my coding journey.</p>
+            <a href="#" class="text-red-500 underline hover:text-red-600">Coming Soon →</a>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="py-20 px-6 text-center" data-aos="zoom-in">
+        <h2 class="text-4xl font-bold mb-4">Let's Build Together</h2>
+        <p class="text-gray-400 mb-6">Start your project or ask a question — I'm ready when you are.</p>
+        <a href="https://wa.link/nlndc7"
+            class="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-full transition">Chat on WhatsApp</a>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-6 text-center bg-gray-950 text-sm text-gray-500">
+        &copy; 2025 Kingsley William | All Rights Reserved.
+    </footer>
+
+    <!-- AOS INIT -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init({ duration: 1000, once: true });</script>
+
+    <script>
+        const pricesUSD = {
+            basic: "$150",
+            standard: "$600",
+            premium: "$1200"
+        };
+
+        const pricesNGN = {
+            basic: "₦85,000",
+            standard: "₦350,500",
+            premium: "₦600,000"
+        };
+
+        function updatePrices() {
+            const currency = document.getElementById("currencySelect").value;
+            const priceSet = currency === "ngn" ? pricesNGN : pricesUSD;
+
+            document.getElementById("basicPrice").textContent = priceSet.basic;
+            document.getElementById("standardPrice").textContent = priceSet.standard;
+            document.getElementById("premiumPrice").textContent = priceSet.premium;
+        }
+
+        document.getElementById("currencySelect").addEventListener("change", updatePrices);
+        updatePrices(); // Initialize with default currency
+    </script>
+
+
+</body>
+
+</html>
